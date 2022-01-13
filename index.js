@@ -30,7 +30,21 @@ const namen1 = [
   "Greg",
 ];
 
-console.log(namen1.includes(2));
-const namen = ["John", "Sammy", "Pete"];
-console.log(namen.includes("Pete"));
-console.log(namen.includes("John"));
+const alleNamen = namen1.filter(
+  (name1) =>
+    ![
+      "John",
+      "Bob",
+      "Robert",
+      "Chuck",
+      "Pete",
+      "Sammy",
+      "Ana",
+      "Sarah",
+      "Francy",
+      "Oscar",
+      "Henry",
+      "Greg",
+    ].includes(namen1)
+);
+console.log("Welche Namen??", alleNamen);

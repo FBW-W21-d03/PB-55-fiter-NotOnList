@@ -47,4 +47,4 @@ const alleNamen = namen1.filter(
       "Greg",
     ].includes(namen1)
 );
-console.log("Welche Namen??", alleNamen);
+console.log("Welche Namen??", namen1);

@@ -28,6 +28,9 @@ const namen2 = [
   "Greg",
 ];
 
-const wert = namen2.filter((item) =>  !namen.includes(item));
+const wert = namen2.filter((item) => namen.includes(item));
+const wert2 = namen2.filter((item) => !namen.includes(item));
 
 console.log("Gemeinsam", wert);
+console.log("!Ggemeinsam", wert2);
+

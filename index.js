@@ -30,5 +30,7 @@ const namen1 = [
   "Greg",
 ];
 
-let namen1 = "Die Namen von array1";
-let result = namen1.includes("Welche namen????");
+console.log(namen1.includes(2));
+const namen = ["John", "Sammy", "Pete"];
+console.log(namen.includes("Pete"));
+console.log(namen.includes("John"));

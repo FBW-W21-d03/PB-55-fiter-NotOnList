@@ -3,7 +3,7 @@ const array1= [ "John", "Bob", "Robert", "Chuck", "Pete", "Sammy", "Ana", "Sarah
 const array2 =["John", "Bobby", "Robert", "Chuck", "Peter", "Sam", "Ana", "Sarah", "Tithany", "Oscar", "Henry", "Greg"]
 
 const prüfenamen=array2.filter((alleNamen) => ! ["John", "Bob", "Robert", "Chuck", "Pete", "Sammy", "Ana", "Sarah", "Francy", "Oscar", "Henry", "Greg"].includes(alleNamen));
-console.log(prüfenamen);
+console.log("Diese Namen sind nicht in der ersten Liste enthalten", prüfenamen);
 
 
 

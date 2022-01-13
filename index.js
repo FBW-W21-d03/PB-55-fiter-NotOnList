@@ -29,3 +29,6 @@ const namen1 = [
   "Henry",
   "Greg",
 ];
+
+let namen1 = "Die Namen von array1";
+let result = namen1.includes("Welche namen????");

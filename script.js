@@ -7,11 +7,3 @@ console.log("Diese Namen sind nicht in der ersten Liste enthalten", prüfenamen)
 
 
 
-
-
-/*const names = ['John', 'David', 'Mike','Sam','Carol','Bob'];
-console.log("The names are=");
-console.log(names);
-var nameObject=names.filter((allNameObject) => !['David', 'Mike','Sam','Carol'].includes(allNameObject));
-console.log("After filter=");
-console.log(nameObject);*/

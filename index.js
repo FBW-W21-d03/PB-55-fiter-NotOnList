@@ -1,5 +1,8 @@
+/* 
+! The Netsh utility can use script files to automate configuration tasks.*/
 "use strict";
-
+/* 
+! Array constante mit Namen */
 const namen = [
   "John",
   "Bob",
@@ -14,7 +17,8 @@ const namen = [
   "Henry",
   "Greg",
 ];
-
+/*
+! Mit const deklarierte Variablen sind in der gesamten Funktion verfügbar, in der sie deklariert wurde */
 const namen1 = [
   "John",
   "Bobby",
@@ -29,7 +33,8 @@ const namen1 = [
   "Henry",
   "Greg",
 ];
-
+/*
+! Die Methode filter durchläuft alle Elemente des Arrays auf dem sie aufgerufen wurde und erzeugt ein neues Array mit denjenigen Elementen des ursprünglichen Arrays, für welche die als Argument an filter übergebene Callbackfunktion den Wert true zurückgibt.*/
 const alleNamen = namen1.filter(
   (name1) =>
     ![
@@ -47,4 +52,6 @@ const alleNamen = namen1.filter(
       "Greg",
     ].includes(namen1)
 );
+/*
+! Gibt eine Nachricht auf der Web-Konsole aus.*/
 console.log("Welche Namen??", namen1);

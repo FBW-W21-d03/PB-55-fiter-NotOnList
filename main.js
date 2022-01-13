@@ -12,6 +12,20 @@ let liste1 = [
   "Henry",
   "Greg",
 ];
+const liste2 = [
+  "John",
+  "Bobby",
+  "Robert",
+  "Chuck",
+  "Peter",
+  "Sam",
+  "Ana",
+  "Sarah",
+  "Tithany",
+  "Oscar",
+  "Henry",
+  "Greg",
+];
 
 let nameObject = liste1.filter(
   (allNameObject) =>
@@ -27,10 +41,10 @@ let nameObject = liste1.filter(
       "Tithany",
       "Oscar",
       "Henry",
-      "Gre",
+      "Greg",
     ].includes(allNameObject)
 );
 
 //console.log(allNameObject);
 console.log(nameObject);
-console.log("nach filter ",`${nameObject}`)
+console.log("nach filter ", `${nameObject}`);
